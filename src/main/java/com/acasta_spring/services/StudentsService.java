@@ -1,7 +1,7 @@
-package com.geekbrains.services;
+package com.acasta_spring.services;
 
-import com.geekbrains.entities.Student;
-import com.geekbrains.repositories.StudentsRepository;
+import com.acasta_spring.entities.Student;
+import com.acasta_spring.repositories.StudentsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

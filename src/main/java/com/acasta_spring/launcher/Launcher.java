@@ -1,4 +1,4 @@
-package com.geekbrains.launcher;
+package com.acasta_spring.launcher;
 
 import java.net.URL;
 import java.security.ProtectionDomain;
