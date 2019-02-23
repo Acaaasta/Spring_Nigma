@@ -16,7 +16,7 @@
     	</mvc:message-converters>
     </mvc:annotation-driven>
     
-    <context:component-scan base-package="com.geekbrains" />
+    <context:component-scan base-package="com.acasta_spring" />
     
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/view/" />

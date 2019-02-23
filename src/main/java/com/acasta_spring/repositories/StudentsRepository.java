@@ -1,6 +1,6 @@
-package com.geekbrains.repositories;
+package com.acasta_spring.repositories;
 
-import com.geekbrains.entities.Student;
+import com.acasta_spring.entities.Student;
 import org.springframework.stereotype.Component;
 
 @Component

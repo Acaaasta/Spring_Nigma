@@ -1,7 +1,7 @@
-package com.geekbrains.services;
+package com.acasta_spring.services;
 
-import com.geekbrains.entities.Product;
-import com.geekbrains.repositories.ProductRepository;
+import com.acasta_spring.entities.Product;
+import com.acasta_spring.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

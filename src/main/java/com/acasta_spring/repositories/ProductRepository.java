@@ -1,6 +1,6 @@
-package com.geekbrains.repositories;
+package com.acasta_spring.repositories;
 
-import com.geekbrains.entities.Product;
+import com.acasta_spring.entities.Product;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;

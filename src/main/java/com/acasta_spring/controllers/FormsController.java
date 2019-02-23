@@ -1,6 +1,5 @@
-package com.geekbrains.controllers;
+package com.acasta_spring.controllers;
 
-import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

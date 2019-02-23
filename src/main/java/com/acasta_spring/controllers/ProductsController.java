@@ -1,8 +1,7 @@
-package com.geekbrains.controllers;
+package com.acasta_spring.controllers;
 
-import com.geekbrains.entities.Product;
-import com.geekbrains.entities.Student;
-import com.geekbrains.services.ProductService;
+import com.acasta_spring.entities.Product;
+import com.acasta_spring.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

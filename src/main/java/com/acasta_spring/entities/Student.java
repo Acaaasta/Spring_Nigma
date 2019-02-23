@@ -1,4 +1,4 @@
-package com.geekbrains.entities;
+package com.acasta_spring.entities;
 
 
 public class Student {
