@@ -6,6 +6,15 @@ public class Product {
     private String title;
     private float cost;
 
+    public Product() {
+    }
+
+    public Product(long id, String title, float cost) {
+        this.id = id;
+        this.title = title;
+        this.cost = cost;
+    }
+
     public long getId() {
         return id;
     }

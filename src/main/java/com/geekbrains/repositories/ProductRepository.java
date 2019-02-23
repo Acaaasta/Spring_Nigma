@@ -1,19 +1,42 @@
 package com.geekbrains.repositories;
 
 import com.geekbrains.entities.Product;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.ArrayList;
+import java.util.List;
 
+@Component
 public class ProductRepository {
 
-    ArrayList<Product> products = new ArrayList<Product>();
+    private List<Product> products;
+
+    @PostConstruct
+    public void init(){
+        products = new ArrayList<>();
+        products.add(new Product(1L, "TV", 25000));
+        products.add(new Product(2L, "Lamp", 500));
+        products.add(new Product(3L, "Sofa", 15000));
+    }
 
     public Product findOneById(Long id) {
 
-        Product product = new Product();
-        product.setId(id);
-        product.setTitle("milk");
-        product.setCost(85);
+        for (Product pr:products) {
+            if (pr.getId()==id) return pr;
+        }
+        return null;
+    }
+
+    public List<Product> findAll(){
+        products = new ArrayList<>();
+        products.add(new Product(1L, "TV", 25000));
+        products.add(new Product(2L, "Lamp", 500));
+        products.add(new Product(3L, "Sofa", 15000));
+        return products;
+    }
+
+    public Product save(Product product){
         products.add(product);
         return product;
     }
